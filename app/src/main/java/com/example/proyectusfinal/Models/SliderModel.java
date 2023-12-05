@@ -1,10 +1,10 @@
 package com.example.proyectusfinal.Models;
 
-public class Slider {
+public class SliderModel {
     private int Image;
     private String slideName;
 
-    public Slider(int image,String slideName) {
+    public SliderModel(int image, String slideName) {
         Image = image;
         this.slideName = slideName;
     }
